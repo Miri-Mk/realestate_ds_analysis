@@ -1,0 +1,80 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ---- Data Science temporary files ----
+*.csv~
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Avoid committing very large data files by mistake
+# Remove comment if needed
+# *.csv
+# *.xlsx
+# *.parquet
+
+# ---- Environments ----
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+.env.bak/
+
+# ---- IDEs / Editors ----
+# VSCode
+.vscode/
+.history/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# JupyterLab
+.jupyter/
+
+# ---- OS / System files ----
+# Windows
+Thumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Build / Packaging ----
+build/
+dist/
+docs/_build/
+
+# ---- Anaconda ----
+*.conda
+*.ipynb_checkpoints/
+*.json
+*.lock
+
+# ---- GitHub Actions cache ----
+.cache/
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Other temp folders ----
+temp/
+tmp/
